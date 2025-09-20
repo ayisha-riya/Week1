@@ -216,3 +216,105 @@
     box-shadow: rgba(245, 240, 240, 0.24) 0px 3px 8px;
     border: 0.5px solid rgb(210, 200, 200);
 }
+@media (max-width: 1200px) {
+    .searchbar input {
+        width: 350px;
+    }
+    .links {
+        gap: 20px;
+    }
+    .cards1 {
+        gap: 20px;
+    }
+}
+@media (max-width: 992px) {
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .logo img {
+        margin-left: 0;
+    }
+    .searchbar {
+        margin-right: 0;
+    }
+    .searchbar input {
+        width: 70%;
+    }
+    .icons {
+        margin-right: 0;
+        justify-content: center;
+    }
+    .cards1 .cards2  {
+        flex-wrap: wrap;
+        width: 20px;
+    }
+    .card1, .card2, .card3, .card4 {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .links {
+        flex-wrap: wrap;
+        margin-left: 0;
+        gap: 15px;
+        justify-content: center;
+    }
+    .cards1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1, .card2, .card3, .card4 {
+        width: 90%;
+    }
+    .section2 img {
+        height: auto;
+    }
+    .foot {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .part1, .part2, .part3, .part4 {
+        width: 45%;
+    }
+     .cards1 .cards2  {
+        flex-wrap: wrap;
+        width: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .redpart {
+        text-align: center;
+        font-size: 12px;
+    }
+    .firstred a {
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .searchbar input {
+        width: 100%;
+    }
+    .icons {
+        font-size: 14px;
+    }
+    .links {
+        font-size: 12px;
+        gap: 10px;
+    }
+    .card1, .card2, .card3, .card4 {
+        width: 100%;
+    }
+    .part1, .part2, .part3, .part4 {
+        width: 100%;
+    }
+     .cards1 .cards2  {
+        flex-wrap: wrap;
+        width: 20px;
+    }
+}
